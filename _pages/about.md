@@ -31,6 +31,7 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
     <ul>
       <li><span class="accent-text">AI Agents</span></li>
       <li><span class="accent-text">LLM Security</span></li>
+      <li><span class="accent-text">Embodied AI</span></li>
     </ul>
   </div>
 </div>
@@ -77,15 +78,14 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ACL Under Review</div>
-    <img src='images/paper1.png' alt="CAST Framework Architecture" width="100%">
+    <div class="badge pulse-accent">EMNLP 2026</div>
+    <img src='images/paper1.png' alt="Unified-MAS paper overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Unified-MAS: Universally Generating Domain-Specific Nodes for
 Empowering Automatic Multi-Agent Systems</h3>
     <div class="authors">Hehai Lin, <strong><span class="accent-text">Yu Yan</span></strong>, Zixuan Wang, Bo Xu, Sudong Wang, Weiquan Huang, Ruochen Zhao, Minzhi Li, Chengwei Qin</div>
-     <div class="venue"><span class="primary-gradient-text">The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span> </div>
-     <div class="venue">under review</div>
+    <div class="venue"><span class="primary-gradient-text">Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)</span> </div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2603.21475v1" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/linhh29/Unified-MAS" class="btn-accent"><i class="fab fa-github"></i> Code</a>

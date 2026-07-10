@@ -374,16 +374,16 @@ body {
 
 /* 现代化的 paper-box 样式 - 优雅的学术论文展示 */
 .paper-box {
-  display: flex !important;
-  flex-direction: row;
+  display: grid !important;
+  grid-template-columns: minmax(280px, 38%) minmax(0, 1fr);
   background: #ffffff !important;
-  border-radius: 16px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(1, 47, 99, 0.06), 0 2px 6px rgba(1, 47, 99, 0.04);
   border: 1px solid rgba(1, 47, 99, 0.04);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-  margin-bottom: 2rem;
+  margin: 1.5rem 0 2rem;
   align-items: stretch;
   backdrop-filter: blur(10px);
 }
@@ -394,21 +394,23 @@ body {
   border-color: rgba(254, 102, 123, 0.12);
 }
 
-.paper-box-image {
+.paper-box .paper-box-image {
   position: relative;
-  width: 240px;
-  min-width: 240px;
+  width: auto;
+  min-width: 0;
+  max-width: none;
+  order: initial;
   overflow: hidden;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2rem;
   box-sizing: border-box;
 }
 
-.paper-box-image::before {
+.paper-box .paper-box-image::before {
   content: '';
   position: absolute;
   top: 0;
@@ -419,9 +421,10 @@ body {
   z-index: 1;
 }
 
-.paper-box-image img {
-  max-width: 100%;
-  max-height: 100%;
+.paper-box .paper-box-image img {
+  width: 100%;
+  max-width: 460px;
+  max-height: 270px;
   object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 8px;
@@ -435,7 +438,7 @@ body {
   box-shadow: 0 8px 25px rgba(1, 47, 99, 0.12);
 }
 
-.paper-box-image .badge {
+.paper-box .paper-box-image .badge {
   position: absolute;
   top: 16px;
   left: 16px;
@@ -445,80 +448,86 @@ body {
   border-radius: 20px;
   font-size: 0.75em;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   box-shadow: 0 4px 12px rgba(254, 102, 123, 0.25);
   z-index: 10;
   text-transform: uppercase;
   backdrop-filter: blur(10px);
 }
 
-.paper-box-text {
-  padding: 2rem;
+.paper-box .paper-box-text {
+  padding: 2rem 2.4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: none;
+  order: initial;
   position: relative;
+  gap: 0.85rem;
 }
 
-.paper-box-text h3 {
-  margin: 0 0 1rem 0;
+.paper-box .paper-box-text h3 {
+  margin: 0;
   font-size: 1.25rem;
   font-weight: 700;
   color: #012F63;
   line-height: 1.3;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
-.paper-box-text p {
+.paper-box .paper-box-text p {
   margin: 0.5rem 0;
   color: #495057;
   line-height: 1.6;
   font-size: 0.95rem;
 }
 
-.paper-box-text .authors {
+.paper-box .paper-box-text .authors {
   font-weight: 400;
   color: #012F63;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-.paper-box-text .authors strong {
+.paper-box .paper-box-text .authors strong {
   color: #FE667B;
   font-weight: 700;
 }
 
-.paper-box-text .venue {
+.paper-box .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0;
   font-size: 0.9rem;
+  line-height: 1.55;
 }
 
-.paper-box-text .links {
+.paper-box .paper-box-text .links {
   display: flex;
   gap: 0.8rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 0.45rem;
 }
 
 /* 响应式设计 - 移动端改为上下布局 */
 @media (max-width: 768px) {
   .paper-box {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     margin-bottom: 1.8rem;
-    border-radius: 12px;
+    border-radius: 8px;
   }
   
-  .paper-box-image {
+  .paper-box .paper-box-image {
     width: 100%;
     min-width: 100%;
-    height: 180px;
-    padding: 16px;
+    height: auto;
+    min-height: 190px;
+    padding: 1.25rem;
   }
   
-  .paper-box-image::before {
+  .paper-box .paper-box-image::before {
     background: linear-gradient(45deg, rgba(254, 102, 123, 0.03) 0%, rgba(1, 47, 99, 0.03) 100%);
   }
   
@@ -526,18 +535,18 @@ body {
     transform: none;
   }
   
-  .paper-box-text {
-    padding: 1.5rem;
+  .paper-box .paper-box-text {
+    padding: 1.35rem;
+    gap: 0.75rem;
   }
   
-  .paper-box-text h3 {
+  .paper-box .paper-box-text h3 {
     font-size: 1.1rem;
-    margin-bottom: 0.8rem;
   }
   
-  .paper-box-text .links {
+  .paper-box .paper-box-text .links {
     gap: 0.6rem;
-    margin-top: 0.8rem;
+    margin-top: 0.35rem;
   }
 }
 
