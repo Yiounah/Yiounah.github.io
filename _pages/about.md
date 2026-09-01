@@ -22,15 +22,15 @@ redirect_from:
 I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the Language and Intelligence (LAI) Lab, <a href='https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/'>Thrust of Artificial Intelligence</a> in <a href="https://www.hkust-gz.edu.cn/zh/?variant=zh-cn"><strong>the Hong Kong University of Science and Technology (Guangzhou)</strong></a>, where I am co-advised by <a href='https://qcwthu.github.io/'><strong>Prof. Chengwei Qin</strong></a> and <a href='https://scholar.google.com/citations?user=Mu__bJEAAAAJ&hl=en/'><strong>Prof. Renjing Xu</strong></a>. Before that, I earned my bachelor's degree in <span class="primary-gradient-text">Finance at <a href='https://soe.xmu.edu.cn/'>IUEC</a></span> and <span class="primary-gradient-text">Statistics at <a href='https://wise.xmu.edu.cn/'>WISE</a></span> from <a href='https://www.xmu.edu.cn/'><strong>Xiamen University</strong></a>.
 
 <div class="quote-accent">I am actively seeking
-<span class="primary-gradient-text">summer internship opportunities</span> and <span class="primary-gradient-text">2027 Fall PhD positions</span>.
+<span class="primary-gradient-text">2027 Fall PhD positions</span>.
 </div>
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-microscope"></i> Research Interests</h3>
     <ul>
-      <li><span class="accent-text">AI Agents</span></li>
-      <li><span class="accent-text">LLM Security</span></li>
+      <li><span class="accent-text">AI Agent</span></li>
+      <li><span class="accent-text">MAS</span></li>
       <li><span class="accent-text">Embodied AI</span></li>
     </ul>
   </div>
@@ -38,6 +38,7 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 
 # <i class="fas fa-fire"></i> News
 <ul class="about-section-list">
+  <li><em>2026.08</em>: ✨ Unified-MAS has been accepted for an Oral presentation at <span class="primary-gradient-text">EMNLP 2026</span>.</li>
   <li><em>2025.03</em>: ✨ I completed my first paper for submission to <span class="primary-gradient-text">the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>.</li>
 </ul>
 
@@ -78,14 +79,14 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">EMNLP 2026</div>
+    <div class="badge pulse-accent">EMNLP 2026 (Oral)</div>
     <img src='images/paper1.png' alt="Unified-MAS paper overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Unified-MAS: Universally Generating Domain-Specific Nodes for
 Empowering Automatic Multi-Agent Systems</h3>
     <div class="authors">Hehai Lin, <strong><span class="accent-text">Yu Yan</span></strong>, Zixuan Wang, Bo Xu, Sudong Wang, Weiquan Huang, Ruochen Zhao, Minzhi Li, Chengwei Qin</div>
-    <div class="venue"><span class="primary-gradient-text">Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)</span> </div>
+    <div class="venue"><span class="primary-gradient-text">Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 Oral)</span> </div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2603.21475v1" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/linhh29/Unified-MAS" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -155,6 +156,13 @@ Empowering Automatic Multi-Agent Systems</h3>
 
 # <i class="fas fa-trophy"></i> Honors and Awards
 <ul class="about-section-list">
+  <li class="education-item">
+    <div class="education-header">
+      <span class="education-school"><span class="primary-gradient-text">First Place</span>, ICRA 2026 What Bimanuals Can Do (WBCD) Challenge</span>
+      <span class="education-date"><em>2026</em></span>
+    </div>
+    <span class="education-degree">Vienna, Austria</span>
+  </li>
   <li class="education-item">
     <div class="education-header">
       <span class="education-school"><span class="primary-gradient-text">National First Prize</span>, 18th "Challenge Cup" Competition</span>
