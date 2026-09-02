@@ -997,7 +997,7 @@ body {
 
 @media (min-width: 925px) {
   .sidebar.sticky {
-    top: 3.5em;
+    top: 2.85em;
   }
 
   .sidebar .profile_box,
@@ -1014,18 +1014,20 @@ body {
   }
 
   .sidebar .author__avatar img {
-    width: 140px;
-    height: auto;
-    max-width: 140px;
+    width: 148px;
+    height: 168px;
+    max-width: 148px;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
+    object-position: center 25%;
   }
 }
 
 .author__avatar img {
-  width: 75px;
-  height: auto;
-  max-width: 75px;
+  width: 86px;
+  height: 98px;
+  max-width: 86px;
   display: block;
   margin-left: auto;
   margin-right: auto;
