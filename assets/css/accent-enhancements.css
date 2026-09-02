@@ -967,3 +967,36 @@ body {
   aspect-ratio: 1 / 1;
   overflow: hidden;
 }
+
+/* Desktop page scale: normal web reading size and content width */
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+#main,
+.masthead__inner-wrap,
+.page__footer footer {
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media (min-width: 1440px) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    max-width: 1320px;
+  }
+}
+
