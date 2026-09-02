@@ -968,23 +968,7 @@ body {
   overflow: hidden;
 }
 
-/* Desktop page scale: normal web reading size and content width */
-html {
-  font-size: 16px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 18px;
-  }
-}
-
+/* Desktop page scale: keep layout width, font-size matches reference homepage */
 #main,
 .masthead__inner-wrap,
 .page__footer footer {
