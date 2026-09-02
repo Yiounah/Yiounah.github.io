@@ -979,6 +979,16 @@ body {
 
 .sidebar .author__name {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.25;
+}
+
+.sidebar .author__name-en,
+.sidebar .author__name-zh {
+  display: block;
+  text-align: center;
 }
 
 .sidebar .author__bio {
@@ -986,11 +996,21 @@ body {
 }
 
 @media (min-width: 925px) {
-  .sidebar .author__avatar {
+  .sidebar .profile_box,
+  .sidebar .author__avatar,
+  .sidebar .author__content {
     width: 100%;
+    text-align: center;
+  }
+
+  .sidebar .author__avatar {
+    display: flex;
+    justify-content: center;
   }
 
   .sidebar .author__avatar img {
+    width: 140px;
+    height: auto;
     max-width: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -998,15 +1018,15 @@ body {
 }
 
 .author__avatar img {
-  width: auto;
+  width: 75px;
   height: auto;
-  max-width: 175px;
+  max-width: 75px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   aspect-ratio: auto;
   overflow: hidden;
 }

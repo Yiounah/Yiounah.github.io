@@ -27,8 +27,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yu YAN(闫羽)"
-  avatar           : "images/avatar-original.jpg"
+  name             : "Yu YAN"
+  name_zh          : "闫羽"
+  avatar           : "images/avatar-oval.jpg"
   bio              : "Mphil student at HKUST(GZ)"
   location         : "Guangzhou, China"
   employer         :
