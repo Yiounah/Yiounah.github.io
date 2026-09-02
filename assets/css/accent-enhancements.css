@@ -374,6 +374,13 @@ body {
   color: white !important;
 }
 
+.btn-accent .fas,
+.btn-accent .fab,
+.btn-accent .far,
+.btn-accent i {
+  color: #fff !important;
+}
+
 /* 现代化的 paper-box 样式 - 优雅的学术论文展示 */
 .paper-box {
   display: grid !important;
@@ -598,6 +605,17 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(102, 8, 116, 0.3);
   color: white !important;
+}
+
+.paper-box-text .btn-accent .fas,
+.paper-box-text .btn-accent .fab,
+.paper-box-text .btn-accent .far,
+.paper-box-text .btn-accent i,
+.paper-box-text .btn-accent:hover .fas,
+.paper-box-text .btn-accent:hover .fab,
+.paper-box-text .btn-accent:hover .far,
+.paper-box-text .btn-accent:hover i {
+  color: #fff !important;
 }
 
 .paper-box-text .btn-accent:active {
@@ -959,12 +977,37 @@ body {
   z-index: 1;
 }
 
+.sidebar .author__name {
+  text-align: center;
+}
+
+.sidebar .author__bio {
+  text-align: center;
+}
+
+@media (min-width: 925px) {
+  .sidebar .author__avatar {
+    width: 100%;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .author__avatar img {
-  width: 175px;
-  height: 175px;
+  width: auto;
+  height: auto;
+  max-width: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
   object-fit: cover;
-  object-position: 52% 34%;
-  aspect-ratio: 1 / 1;
+  object-position: center top;
+  aspect-ratio: auto;
   overflow: hidden;
 }
 
