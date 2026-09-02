@@ -996,6 +996,10 @@ body {
 }
 
 @media (min-width: 925px) {
+  .sidebar.sticky {
+    top: 3.5em;
+  }
+
   .sidebar .profile_box,
   .sidebar .author__avatar,
   .sidebar .author__content {
@@ -1006,6 +1010,7 @@ body {
   .sidebar .author__avatar {
     display: flex;
     justify-content: center;
+    margin-top: 0;
   }
 
   .sidebar .author__avatar img {
