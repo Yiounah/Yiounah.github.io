@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-   $doc-font-size              : 15;
+   $doc-font-size              : 14;
 
    /* paragraph indention */
    $paragraph-indent           : false; // true, false (default)
@@ -137,9 +137,8 @@
    $small                      : 600px !default;
    $medium                     : 768px !default;
    $medium-wide                : 900px !default;
-   $large                      : 1024px !default;
-   $x-large                    : 1440px !default;
-   $max-width                  : 1200px !default;
+   $large                      : 925px !default;
+   $x-large                    : 1280px !default;
    
    /*
       Grid
@@ -156,7 +155,7 @@
      math: fluid,
      output: float,
      gutter-position: after,
-     container: $max-width,
+     container: $large,
      global-box-sizing: border-box,
    );
    

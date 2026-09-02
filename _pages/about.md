@@ -28,10 +28,10 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-microscope"></i> Research Interests</h3>
-    <ul>
-      <li><span class="accent-text">AI Agent</span></li>
-      <li><span class="accent-text">MAS</span></li>
-      <li><span class="accent-text">Embodied AI</span></li>
+    <ul class="interest-tags">
+      <li>AI Agent</li>
+      <li>MAS</li>
+      <li>Embodied AI</li>
     </ul>
   </div>
 </div>
