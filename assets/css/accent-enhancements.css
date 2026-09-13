@@ -1058,20 +1058,29 @@ html {
     border: 0 !important;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 22%;
+    object-position: center 42%;
     transform: none;
   }
 }
 
-#site-nav .visible-links {
-  display: flex !important;
-  flex-wrap: nowrap;
+#site-nav.site-nav,
+#site-nav .site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  width: 100%;
 }
 
-#site-nav button,
-#site-nav .hidden-links {
-  display: none !important;
+#site-nav .site-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#site-nav .site-nav__list a {
+  display: block;
+  margin: 0 0.85rem;
+  padding: 0.5rem 0;
 }
 
 .author__avatar img {
