@@ -1054,9 +1054,9 @@ html {
     max-width: none;
     margin: 0;
     object-fit: contain;
-    object-position: center 42%;
-    transform: scale(0.86);
-    transform-origin: center 40%;
+    object-position: center 40%;
+    transform: scale(0.78);
+    transform-origin: center 38%;
   }
 }
 
