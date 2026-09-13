@@ -36,13 +36,13 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
   </div>
 </div>
 
-# <i class="fas fa-fire"></i> News
+# <i class="fas fa-fire"></i> News {#news}
 <ul class="about-section-list">
   <li><em>2026.08</em>: ✨ Unified-MAS has been accepted for an Oral presentation at <span class="primary-gradient-text">EMNLP 2026</span>.</li>
   <li><em>2025.03</em>: ✨ I completed my first paper for submission to <span class="primary-gradient-text">the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>.</li>
 </ul>
 
-# <i class="fas fa-graduation-cap"></i> Education
+# <i class="fas fa-graduation-cap"></i> Education {#education}
 <ul class="about-section-list education-list">
   <li class="education-item education-item-with-logo">
     <div class="education-entry-with-logo">
@@ -75,7 +75,7 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
   </li>
 </ul>
 
-# <i class="fas fa-file-alt"></i> Publications 
+# <i class="fas fa-file-alt"></i> Publications {#publications}
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
@@ -94,7 +94,7 @@ Empowering Automatic Multi-Agent Systems</h3>
   </div>
 </div>
 
-# <i class="fas fa-laptop-code"></i> Internships
+# <i class="fas fa-laptop-code"></i> Internships {#internships}
 <ul class="about-section-list internship-list">
   <li class="internship-item">
     <div class="internship-entry">
@@ -154,7 +154,7 @@ Empowering Automatic Multi-Agent Systems</h3>
   </li>
 </ul>
 
-# <i class="fas fa-trophy"></i> Honors and Awards
+# <i class="fas fa-trophy"></i> Honors and Awards {#honors-and-awards}
 <ul class="about-section-list">
   <li class="education-item">
     <div class="education-header">
@@ -186,7 +186,7 @@ Empowering Automatic Multi-Agent Systems</h3>
   </li>
 </ul>
 
-# <i class="fas fa-screwdriver-wrench"></i> Skills
+# <i class="fas fa-screwdriver-wrench"></i> Skills {#skills}
 <ul class="about-section-list">
   <li class="education-item">
     <div class="education-header">

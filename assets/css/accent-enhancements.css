@@ -968,13 +968,21 @@ body {
   pointer-events: none;
 }
 
+html {
+  scroll-padding-top: 5.2rem;
+}
+
 .masthead,
 #main,
-.sidebar,
 .page,
 .site-footer {
   position: relative;
   z-index: 1;
+}
+
+.page__content h1,
+#about-me {
+  scroll-margin-top: 5.2rem;
 }
 
 .sidebar .author__name {
@@ -996,12 +1004,32 @@ body {
 }
 
 @media (min-width: 925px) {
+  #main {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #main > .sidebar,
+  #main > .page {
+    float: none;
+  }
+
+  #main > .page {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
   .sidebar.sticky {
-    top: 2.6em;
+    position: sticky !important;
+    top: 4.6rem;
+    align-self: flex-start;
+    transform: none;
+    max-height: calc(100vh - 5.2rem);
+    overflow: visible;
+    z-index: 2;
   }
 
   .sidebar .profile_box,
-  .sidebar .author__avatar,
   .sidebar .author__content {
     width: 100%;
     text-align: center;
@@ -1009,18 +1037,26 @@ body {
 
   .sidebar .author__avatar {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 0;
+    width: 168px;
+    height: 176px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #d7dbe0;
+    box-sizing: border-box;
   }
 
   .sidebar .author__avatar img {
     width: 168px;
     height: 176px;
-    max-width: 168px;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-    object-position: center 25%;
+    max-width: none;
+    margin: 0;
+    object-fit: contain;
+    object-position: center 42%;
+    transform: scale(0.86);
+    transform-origin: center 40%;
   }
 }
 
