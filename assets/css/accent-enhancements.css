@@ -988,20 +988,6 @@ html {
 
 .sidebar .author__name {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.25;
-}
-
-.sidebar .author__name-en,
-.sidebar .author__name-zh {
-  display: block;
-  text-align: center;
-}
-
-.sidebar .author__bio {
-  text-align: center;
 }
 
 @media (min-width: 925px) {
@@ -1022,63 +1008,46 @@ html {
 
   .sidebar.sticky {
     position: sticky !important;
-    top: 4.6rem;
+    top: 2.6em;
     align-self: flex-start;
     transform: none;
     max-height: calc(100vh - 6.5em);
     overflow-x: hidden;
     overflow-y: auto;
     overscroll-behavior: contain;
+    padding-right: 0.25rem;
+    box-sizing: border-box;
     z-index: 2;
   }
 
-  .sidebar .profile_box,
-  .sidebar .author__content {
-    width: 100%;
-    text-align: center;
-  }
-
-  .sidebar .author__avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 168px;
-    height: 176px;
-    margin: 0 auto;
-    border-radius: 50%;
-    overflow: hidden;
-    background: transparent;
-    box-sizing: border-box;
-  }
-
   .sidebar .author__avatar img {
-    width: 100%;
-    height: 100%;
-    max-width: none;
-    min-width: 0;
-    margin: 0;
-    padding: 0 !important;
-    border: 0 !important;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center 58%;
+    max-width: 140px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: unset;
+    object-position: center center;
     transform: none;
   }
 
-}
+  .sidebar .author__urls {
+    width: 100%;
+  }
 
-.author__avatar img {
-  width: 75px;
-  height: auto;
-  max-width: 75px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center center;
-  aspect-ratio: auto;
-  overflow: hidden;
+  .sidebar .author__urls li {
+    white-space: normal;
+    margin-bottom: 0.2em;
+  }
+
+  .sidebar .author__urls a {
+    font-size: 0.82em;
+    line-height: 1.35;
+    margin-bottom: 0.15em;
+    padding-right: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
 }
 
 .interest-tags {
