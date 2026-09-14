@@ -981,6 +981,7 @@ html {
 }
 
 .page__content h1,
+.page__content .anchor,
 #about-me {
   scroll-margin-top: 5.2rem;
 }
@@ -1024,8 +1025,10 @@ html {
     top: 4.6rem;
     align-self: flex-start;
     transform: none;
-    max-height: calc(100vh - 5.2rem);
-    overflow: visible;
+    max-height: calc(100vh - 6.5em);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
     z-index: 2;
   }
 
@@ -1058,29 +1061,10 @@ html {
     border: 0 !important;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 42%;
+    object-position: center 58%;
     transform: none;
   }
-}
 
-#site-nav.site-nav,
-#site-nav .site-nav__list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-}
-
-#site-nav .site-nav__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#site-nav .site-nav__list a {
-  display: block;
-  margin: 0 0.85rem;
-  padding: 0.5rem 0;
 }
 
 .author__avatar img {

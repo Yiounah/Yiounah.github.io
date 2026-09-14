@@ -36,13 +36,17 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
   </div>
 </div>
 
-<h1 id="news"><i class="fas fa-fire"></i> News</h1>
+<span class='anchor' id='news'></span>
+
+# <i class="fas fa-fire"></i> News
 <ul class="about-section-list">
   <li><em>2026.08</em>: ✨ Unified-MAS has been accepted for an Oral presentation at <span class="primary-gradient-text">EMNLP 2026</span>.</li>
   <li><em>2025.03</em>: ✨ I completed my first paper for submission to <span class="primary-gradient-text">the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>.</li>
 </ul>
 
-<h1 id="education"><i class="fas fa-graduation-cap"></i> Education</h1>
+<span class='anchor' id='education'></span>
+
+# <i class="fas fa-graduation-cap"></i> Education
 <ul class="about-section-list education-list">
   <li class="education-item education-item-with-logo">
     <div class="education-entry-with-logo">
@@ -75,7 +79,9 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
   </li>
 </ul>
 
-<h1 id="publications"><i class="fas fa-file-alt"></i> Publications</h1>
+<span class='anchor' id='publications'></span>
+
+# <i class="fas fa-file-alt"></i> Publications
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
@@ -94,7 +100,9 @@ Empowering Automatic Multi-Agent Systems</h3>
   </div>
 </div>
 
-<h1 id="internships"><i class="fas fa-laptop-code"></i> Internships</h1>
+<span class='anchor' id='internships'></span>
+
+# <i class="fas fa-laptop-code"></i> Internships
 <ul class="about-section-list internship-list">
   <li class="internship-item">
     <div class="internship-entry">
@@ -154,7 +162,9 @@ Empowering Automatic Multi-Agent Systems</h3>
   </li>
 </ul>
 
-<h1 id="honors-and-awards"><i class="fas fa-trophy"></i> Honors and Awards</h1>
+<span class='anchor' id='honors-and-awards'></span>
+
+# <i class="fas fa-trophy"></i> Honors and Awards
 <ul class="about-section-list">
   <li class="education-item">
     <div class="education-header">
@@ -186,7 +196,9 @@ Empowering Automatic Multi-Agent Systems</h3>
   </li>
 </ul>
 
-<h1 id="skills"><i class="fas fa-screwdriver-wrench"></i> Skills</h1>
+<span class='anchor' id='skills'></span>
+
+# <i class="fas fa-screwdriver-wrench"></i> Skills
 <ul class="about-section-list">
   <li class="education-item">
     <div class="education-header">
