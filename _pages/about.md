@@ -40,7 +40,7 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 
 # <i class="fas fa-fire"></i> News
 <ul class="about-section-list">
-  <li><em>2026.08</em>: ✨ Unified-MAS has been accepted for an Oral presentation at <span class="primary-gradient-text">EMNLP 2026</span>.</li>
+  <li><em>2026.08</em>: ✨ Unified-MAS has been accepted by <span class="primary-gradient-text">EMNLP 2026 Conference</span>.</li>
   <li><em>2025.03</em>: ✨ I completed my first paper for submission to <span class="primary-gradient-text">the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>.</li>
 </ul>
 
@@ -82,17 +82,34 @@ I'm <span class="accent-text">Yu YAN</span>, a first-year MPhil student at the L
 <span class='anchor' id='publications'></span>
 
 # <i class="fas fa-file-alt"></i> Publications
+<p>(<sup>*</sup>: equal contribution)</p>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">EMNLP 2026 (Oral)</div>
+    <div class="badge pulse-accent">arXiv 2027</div>
+    <img src='images/LumiBench.png' alt="LumiBench teaser" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>LumiBench: Benchmarking Illumination Robustness in Robotic Manipulation Policies</h3>
+    <div class="authors">Yiman Pang<sup>*</sup>, Haoming Gu<sup>*</sup>, <a href="https://victor-roboneo.github.io/">Wenjie Zhang</a>, <strong><span class="accent-text">Yu Yan</span></strong>, Xiangyu Chen, Mingqian Zhou, Zhengtu Liang, Boyang Cai, Tao Wang, <a href="https://scholar.google.com/citations?hl=en&user=Mu__bJEAAAAJ&view_op=list_works&sortby=pubdate">Renjing Xu</a></div>
+    <div class="venue"><span class="primary-gradient-text">arXiv preprint, 2027</span></div>
+    <p>We propose LumiBench, a physical benchmark for evaluating the illumination robustness of robotic manipulation policies across varying lighting conditions.</p>
+    <div class="links">
+      <a href="https://pangym666.github.io/LumiBench/" class="btn-accent"><i class="fas fa-globe"></i> Homepage</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">EMNLP 2026</div>
     <img src='images/paper1.png' alt="Unified-MAS paper overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Unified-MAS: Universally Generating Domain-Specific Nodes for
 Empowering Automatic Multi-Agent Systems</h3>
     <div class="authors">Hehai Lin, <strong><span class="accent-text">Yu Yan</span></strong>, Zixuan Wang, Bo Xu, Sudong Wang, Weiquan Huang, Ruochen Zhao, Minzhi Li, Chengwei Qin</div>
-    <div class="venue"><span class="primary-gradient-text">Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 Oral)</span> </div>
+    <div class="venue"><span class="primary-gradient-text">EMNLP 2026 Conference</span> </div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2603.21475v1" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/linhh29/Unified-MAS" class="btn-accent"><i class="fab fa-github"></i> Code</a>

@@ -3,7 +3,7 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
-  {% assign cv_link = author.cv | default: "/files/Yu_YAN.pdf" %}
+  {% assign cv_link = author.cv | default: "/files/Yu_YAN.pdf?v=20260923" %}
 
   <div class="author__avatar">
     <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
