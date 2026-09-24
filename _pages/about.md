@@ -159,7 +159,7 @@ Empowering Automatic Multi-Agent Systems</h3>
           <span class="education-school primary-gradient-text">DeepWisdom</span>
           <span class="education-date education-date-inline"><em>2025.03 - 2025.06</em></span>
         </div>
-        <span class="education-degree">Research Intern at MetaGPT Team</span>
+        <span class="education-degree">Product Operation - Multi-Agent System Focus</span>
       </div>
     </div>
   </li>
@@ -173,7 +173,7 @@ Empowering Automatic Multi-Agent Systems</h3>
           <span class="education-school primary-gradient-text">GF Securities</span>
           <span class="education-date education-date-inline"><em>2025.01 - 2025.02</em></span>
         </div>
-        <span class="education-degree">Research Intern in Equity Capital Markets (ECM)</span>
+        <span class="education-degree">Intern in Equity Capital Markets (ECM) - IPO Focus</span>
       </div>
     </div>
   </li>

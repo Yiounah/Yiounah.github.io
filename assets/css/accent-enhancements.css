@@ -8,19 +8,8 @@
 }
 
 /* 增强的页面装饰条 */
-.accent-border-top {
-  position: relative;
-}
-
 .accent-border-top::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #A4ECFB 0%, #AECCFF 34%, #8D94EC 68%, #4A3071 100%);
-  z-index: 10;
+  display: none;
 }
 
 /* 强调色按钮样式 */
@@ -1078,8 +1067,8 @@ html {
   margin-bottom: 0;
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
-  background: #ffffff;
-  border: 1px solid rgba(74, 48, 113, 0.22);
+  background: #E0ECFF;
+  border: 1px solid rgba(141, 148, 236, 0.28);
   color: #4A3071;
   font-size: 0.9rem;
   font-weight: 600;
@@ -1088,8 +1077,8 @@ html {
 }
 
 .highlight-block ul.interest-tags li:hover {
-  background: #ffffff;
-  border-color: rgba(74, 48, 113, 0.4);
+  background: #D4E2FF;
+  border-color: rgba(141, 148, 236, 0.45);
 }
 
 .highlight-block ul.interest-tags li::before {
